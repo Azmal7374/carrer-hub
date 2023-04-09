@@ -4,17 +4,27 @@ import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
+import ErrorPage from './components/ErrorPage'
+import { jobsAndCartData } from './loader/getJobsAndCart'
+
+
 
 const router = createBrowserRouter([
   {
     path: '/',
     element:<App></App>,
+    errorElement:<ErrorPage></ErrorPage>,
+    loader:jobsAndCartData,
     children:[
       {
         path: '/',
-        element:<Home></Home>
-
+        element:<Home></Home>,
+      },
+      {
+        path: '/',
+        
       }
+
     ]
   
   }

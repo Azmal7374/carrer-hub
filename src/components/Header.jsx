@@ -26,10 +26,10 @@ const Header = () => {
     </div>
   </div>
   <div className="navbar-end md:mr-20">
-    <a className=" bg-purple-700 p-2 rounded-lg text-white text-center w-32">Star Applying</a>
+    <a className=" bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600">Star Applying</a>
   </div>
 </div>
     );
 };
 
-export default Header;
+export default Header; 

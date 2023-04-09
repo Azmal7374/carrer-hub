@@ -1,0 +1,191 @@
+[   
+      {
+        "id": 1,
+        "companyLogo": "https://cdn.mos.cms.futurecdn.net/BQwukuZwwwXrg27B9Le2Q6-1024-80.png.webp",
+        "jobTitle": "Senior Front-End Engineer",
+        "companyName": "Tesla",
+        "remoteOrOnsite": "Onsite",
+        "location": "Palo Alto, CA",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "150k-200k",
+        "jobDescription": "Join our team to work on innovative projects that are revolutionizing the automotive industry. As a Senior Front-End Engineer, you will be responsible for building the next generation of user interfaces for our vehicles.",
+        "jobResponsibility": "Design and develop user interfaces for Tesla's vehicles. Work with product managers and designers to create intuitive and engaging user experiences. Collaborate with back-end engineers to integrate front-end code with server-side logic.",
+        "educationalRequirements": "Bachelor's degree in computer science, software engineering, or a related field",
+        "experience": "7+ years of experience in front-end engineering, with expertise in modern web development frameworks and technologies",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@tesla.com"
+        }
+      },
+
+      {
+        "id": 2,
+        "companyLogo": "https://i0.wp.com/genprideseattle.org/wp-content/uploads/2020/06/kisspng-youtube-live-logo-streaming-media-youtube-banner-5b0c2742af8024.2887347315275231387189.jpg?resize=300%2C140&ssl=1",
+        "jobTitle": "Content Creator",
+        "companyName": "Youtube",
+        "remoteOrOnsite": "Remote",
+        "location": "Dhaka, BD",
+        "fullTimeOrPartTime": "Part-time",
+        "salary": "100k-150k",
+        "jobDescription": "Join our community of creators and share your passion with the world! As a Content Creator, you will produce engaging videos and build your audience on the world's largest video platform.",
+        "jobResponsibility": "Create high-quality videos on a regular basis. Develop engaging content ideas and collaborate with other creators. Build and engage with your audience through comments, social media, and other channels.",
+        "educationalRequirements": "No formal education required, but experience with video production, editing, and social media is a plus.",
+        "experience": "At least 1 year of experience creating videos for online platforms.",
+        "contactInformation": {
+          "phone": "",
+          "email": "jobs@youtube.com"
+        }
+      },
+      {
+        "id": 3,
+        "companyLogo": "https://thumbs.dreamstime.com/b/apple-inc-american-multinational-technology-company-headquartered-cupertino-california-designs-develops-sells-205685480.jpg",
+        "jobTitle": "Senior iOS Developer",
+        "companyName": "Apple",
+        "remoteOrOnsite": "Remote",
+        "location": "San Francisco, CA",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "120k- 180k",
+        "jobDescription": "Join our world-class team of iOS developers and help us create innovative mobile applications. As a Senior iOS Developer, you will design, develop, and maintain software applications for iOS devices using Swift and Xcode.",
+        "jobResponsibility": "Design, develop, and maintain software applications for iOS devices. Collaborate with cross-functional teams to identify and solve business problems. Write clean, maintainable, and efficient code. Participate in code reviews and help maintain code quality standards.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+        "experience": "5+ years of experience in software development, with expertise in iOS development using Swift and Xcode",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@apple.com"
+        }
+      },
+      {
+        "id": 4,
+        "companyLogo": "https://www.logotaglines.com/wp-content/uploads/2016/08/hp-logo.jpg",
+        "jobTitle": "Software Engineer",
+        "companyName": "HP",
+        "remoteOrOnsite": "Onsite",
+        "location": "Palo Alto, CA",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "110k- 140k",
+        "jobDescription": "As a Software Engineer at HP, you will work on developing software applications that power HP's hardware products. You will collaborate with cross-functional teams to deliver innovative and reliable software solutions that meet our customers' needs.",
+        "jobResponsibility": "Design, develop, and test software applications for HP's hardware products. Collaborate with cross-functional teams to identify and solve business problems. Write clean, maintainable, and efficient code. Participate in code reviews and help maintain code quality standards.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+        "experience": "3+ years of experience in software development, with expertise in one or more programming languages such as C++, Java, or Python",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@hp.com"
+        }
+      },
+      {
+        "id": 5,
+        "companyLogo": "https://1000logos.net/wp-content/uploads/2018/10/Oppo-logo.png",
+        "jobTitle": "Front-end Web Developer",
+        "companyName": "oppo",
+        "remoteOrOnsite": "Remote",
+        "location": "Anywhere",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "80k- 100k",
+        "jobDescription": "Join our team of talented web developers and help us create beautiful and intuitive user interfaces. As a Front-end Web Developer, you will work closely with our design team to translate designs into functional web pages and applications.",
+        "jobResponsibility": "Write clean, efficient, and maintainable code for web applications. Translate designs into functional web pages and applications. Collaborate with back-end developers to integrate front-end code with server-side logic. Optimize web applications for maximum speed and scalability.",
+        "educationalRequirements": "Bachelor's degree in Computer Science, Web Development, or a related field",
+        "experience": "3+ years of experience in web development, with expertise in HTML, CSS, JavaScript, and at least one modern front-end framework such as React, Angular, or Vue",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@oppo.com"
+        }
+      },
+      {
+        "id": 6,
+        "companyLogo": "https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "remoteOrOnsite": "Onsite",
+        "location": "Mountain View, CA",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "90k- 130k",
+        "jobDescription": "Join our team of talented software engineers and help us build the next generation of products and services. As a Software Engineer, you will work on projects ranging from search algorithms to mobile apps to cloud infrastructure.",
+        "jobResponsibility": "Design, develop, and maintain software applications and services. Collaborate with cross-functional teams to define, design, and ship new features. Write clean, efficient, and well-documented code. Participate in code reviews and provide constructive feedback to peers.",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field",
+        "experience": "3+ years of experience in software development, with proficiency in one or more programming languages such as Java, Python, or C++. Experience with large-scale distributed systems, cloud computing, and/or mobile app development is a plus.",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@google.com"
+        }
+      },
+      {
+        "id": 7,
+        "companyLogo": "https://thumbs.dreamstime.com/b/netflix-company-logo-red-letters-white-background-netflix-company-logo-197354621.jpg",
+        "jobTitle": "Software Engineer",
+        "companyName": "Netflix",
+        "remoteOrOnsite": "Remote",
+        "location": "United States",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "100k- 160k",
+        "jobDescription": "We are seeking a talented software engineer to join our team at Netflix. As a software engineer, you will work on critical projects that help our streaming service reach millions of people around the world. You will collaborate with other engineers and cross-functional teams to develop new features and improve existing ones.",
+        "jobResponsibility": "Design and implement high-performance, scalable, and reliable software. Collaborate with other engineers and cross-functional teams to develop new features and improve existing ones. Write clean, maintainable, and testable code. Troubleshoot and resolve complex issues in production environments.",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experience": "5+ years of experience in software development, with experience in distributed systems, web services, and cloud computing.",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@netflix.com"
+        }
+      },
+      {
+        "id": 8,
+        "companyLogo": "https://logowik.com/content/uploads/images/905_lotto.jpg",
+        "jobTitle": "Marketing Manager",
+        "companyName": "Lotto",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York, NY",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "120k- 160k",
+        "jobDescription": "We are looking for a Marketing Manager to help us grow our brand and increase our customer base. As a Marketing Manager, you will be responsible for developing and implementing marketing strategies that drive customer engagement and loyalty.",
+        "jobResponsibility": "Develop and execute marketing plans that align with business objectives. Manage advertising and promotional campaigns across a variety of channels, including social media, email, and events. Conduct market research to identify trends and opportunities. Collaborate with cross-functional teams to develop product positioning and messaging. Measure and report on the effectiveness of marketing campaigns.",
+        "educationalRequirements": "Bachelor's degree in Marketing or a related field",
+        "experience": "5+ years of experience in marketing, with a track record of developing successful marketing campaigns. Experience in the gaming or entertainment industry is a plus.",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@lotto.com"
+        }
+      },
+      {
+        "id": 9,
+        "companyLogo": "https://www.cdrinfo.com/d7/system/files/styles/siteberty_image_220x170/private/new_site_image/2020/vivo_logo.jpeg?itok=cVQAGZZk",
+        "jobTitle": "UI/UX Designer",
+        "companyName": "Vivo",
+        "remoteOrOnsite": "Onsite",
+        "location": "Beijing, China",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "70k- 100k",
+        "jobDescription": "Vivo is seeking a talented UI/UX designer to help us create beautiful, intuitive user interfaces for our mobile devices. As a UI/UX designer at Vivo, you will work closely with our product and engineering teams to create wireframes, prototypes, and high-fidelity designs that meet our users' needs and delight them with their simplicity and elegance.",
+        "jobResponsibility": "Create wireframes, prototypes, and high-fidelity designs that meet our users' needs and delight them with their simplicity and elegance. Work closely with our product and engineering teams to ensure that designs are implemented correctly and meet our high standards of quality. Stay up-to-date with the latest design trends and technologies to ensure that our products are always at the forefront of the industry.",
+        "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or related field.",
+        "experience": "3+ years of experience in UI/UX design, with experience designing for mobile devices and a strong portfolio that demonstrates a deep understanding of user-centered design principles.",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@vivo.com"
+        }
+      },
+      {
+        "id": 10,
+        "companyLogo":"https://logowik.com/walton-logo-vector-svg-pdf-ai-eps-cdr-free-download-9669.html" ,
+        "jobTitle": "Software Engineer",
+        "companyName": "Walton",
+        "remoteOrOnsite": "Remote",
+        "location": "Bangladesh",
+        "fullTimeOrPartTime": "Full-time",
+        "salary": "100k- 170k",
+        "jobDescription": "Walton is seeking a skilled software engineer to help us develop and maintain our suite of products. As a software engineer at Walton, you will work with our product and design teams to create and implement high-quality code that meets our users' needs and exceeds their expectations.",
+        "jobResponsibility": "Design and develop high-quality code that meets our users' needs and exceeds their expectations. Work closely with our product and design teams to ensure that code is implemented correctly and meets our high standards of quality. Stay up-to-date with the latest technologies and frameworks to ensure that our products are always at the forefront of the industry.",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experience": "3+ years of experience in software engineering, with experience in one or more of the following languages: Java, Python, or Ruby.",
+        "contactInformation": {
+          "phone": "555-555-5555",
+          "email": "jobs@walton.com"
+        }
+      }
+
+
+    
+
+
+
+]
+
+

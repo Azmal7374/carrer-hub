@@ -13,25 +13,27 @@ import {
   faLocationDot,
   faCircleDollarToSlot
 } from "@fortawesome/free-solid-svg-icons";
+import { addToDb, getStoredCart } from "../utilities/fakeDb";
 
 const JobDetails = () => {
   const job = useLoaderData();
-  console.log(job);
 
   const { id } = useParams();
-  console.log(id);
 
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
     if (job) {
       const detailsData = job.find((dt) => dt.id == id);
-      console.log(detailsData);
       setDetails(detailsData);
     }
   }, []);
 
-  console.log(details);
+
+
+  const handleAddToCart = (details) => {
+     addToDb(details.id)
+  }
 
   return (
 
@@ -94,7 +96,7 @@ const JobDetails = () => {
           </div>
         </div>
         <div className="">
-          <button className="block mt-4 bg-purple-500 p-2 rounded-lg text-white text-center w-96 hover:bg-purple-600">
+          <button onClick={() => handleAddToCart(details)} className="block mt-4 bg-purple-500 p-2 rounded-lg text-white text-center w-96 hover:bg-purple-600">
             Apply Now
           </button>
         </div>

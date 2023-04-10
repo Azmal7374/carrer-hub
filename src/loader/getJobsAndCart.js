@@ -1,19 +1,22 @@
+import { getStoredCart } from "../utilities/fakeDb";
 
-//  export const jobsAndCartData = async() =>{
-//      const jobsData = await fetch('jobscategory.json');
-//      const jobs = await jobsData.json();
-//     //   console.log(jobs);
-//     // const savedCart = getStoredCart();
-//     // let cartArray = [];
+const jobsAndCartData = async() =>{
+     const jobsData = await fetch('jobscategory.json');
+     const jobs = await jobsData.json();
+      console.log(jobs);
+    const savedCart = getStoredCart();
+    let cartArray = [];
 
-// //     for( const id in savedCart ){
-// //         const foundProduct = products.find(product => product.id === id);
+    for( const id in savedCart ){
+        const foundJob = jobs.find(job => job.id === id);
     
-// //         if( foundProduct){
-// //             foundProduct.quantity = savedCart[id]
-// //             cartArray.push(foundProduct)
-// //         }
-// //     }
-//     return jobs;
+        if( foundJob){
+            foundJob.quantity = savedCart[id]
+            cartArray.push(foundJob)
+        }
+    }
+    return {jobs, cartArray};
 
-// }
+}
+
+export  default  jobsAndCartData

@@ -29,7 +29,7 @@ const Home = () => {
        </div>
        </section>
 
-       <section className="job-category-list-section my-container">
+       <section className="job-category-list-section my-container my-8">
 
        <h1 className='text-2xl font-bold text-black text-center'>Job Category List</h1>
        <p  className="mt-4 text-gray-600 text-center">Explore thousands of job opportunities with all the information you need its your future</p>
@@ -78,7 +78,7 @@ const Home = () => {
   </div>
        </section>
 
-       <section className="featured-jobs my-container">
+       <section className="featured-jobs my-container my-8">
        <h1 className='text-2xl font-bold text-black text-center'>Featured Job</h1>
        <p  className="mt-4 text-gray-600 text-center">Explore thousands of job opportunities with all the information you need its your future</p>
         <div className=" grid md:grid-cols-2 justify-center gap-10 mt-4">

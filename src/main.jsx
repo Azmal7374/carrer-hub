@@ -5,10 +5,10 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
 import ErrorPage from './components/ErrorPage'
-import { jobsAndCartData } from './loader/getJobsAndCart'
 import AppliedJobs from './components/AppliedJobs'
 import Statistics from './components/Statistics'
 import Blog from './components/Blog'
+import JobDetails from './components/JobDetails'
 
 
 
@@ -17,12 +17,16 @@ const router = createBrowserRouter([
     path: '/',
     element:<App></App>,
     errorElement:<ErrorPage></ErrorPage>,
-    loader:jobsAndCartData,
     children:[
       {
         path: '/',
         element:<Home></Home>,
-        loader: () => fetch('jobscategory.json')
+        loader: () => fetch('/jobscategory.json')
+      },
+      {
+        path:'jobdetails/:id',
+        element:<JobDetails></JobDetails>,
+        loader: ({params}) => fetch('/jobscategory.json')
       },
       {
         path: '/statistics',

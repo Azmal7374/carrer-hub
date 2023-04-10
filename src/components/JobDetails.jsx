@@ -2,6 +2,8 @@ import { faChessKing } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
+import { BriefcaseIcon, PhoneIcon, EnvelopeIcon,  } from '@heroicons/react/24/solid'
+
 
 import vertor from '../assets/All Images/Vector.png';
 import img2 from '../assets/All Images/Vector-1.png';
@@ -9,7 +11,7 @@ import img2 from '../assets/All Images/Vector-1.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
-  faCircleDollarToSlot,
+  faCircleDollarToSlot
 } from "@fortawesome/free-solid-svg-icons";
 
 const JobDetails = () => {
@@ -64,29 +66,29 @@ const JobDetails = () => {
             <hr className="mt-2 " />
             <p className="text-gray-700">
               {" "}
-              <span className="font-semibold">Salary: </span>
+              <span className="font-semibold">Salary: </span><FontAwesomeIcon className="mx-2" icon={faCircleDollarToSlot}></FontAwesomeIcon>
               {details.salary}
             </p>
-            <p className="text-gray-700">
-              <span className="font-semibold">Job Title: </span>
+            <p className="text-gray-700 flex">
+              <span className="font-semibold">Job Title: </span> <BriefcaseIcon className="w-5 mx-2"></BriefcaseIcon>
               {details.jobTitle}
             </p>
             <h2 className="font-bold"> Contact Information</h2>
             <hr className="mt-2" />
-            <p className="text-gray-700">
-              <span className="font-semibold">Phone: </span>
+            <p className="text-gray-700 flex">
+              <span className="font-semibold">Phone: </span><PhoneIcon className="w-5 mx-2"></PhoneIcon>
               {details.contactInformation
                 ? details.contactInformation.phone
                 : "not"}
             </p>
-            <p className="text-gray-700">
-              <span className="font-semibold">Email: </span>
+            <p className="text-gray-700 flex">
+              <span className="font-semibold">Email: </span><EnvelopeIcon className="w-5 mx-2"></EnvelopeIcon>
               {details.contactInformation
                 ? details.contactInformation.email
                 : "not"}
             </p>
             <p className="text-gray-700">
-              <span className="font-semibold">Address: </span>
+              <span className="font-semibold">Address: </span><FontAwesomeIcon className="mx-2" icon={faLocationDot}></FontAwesomeIcon>
               {details.location}
             </p>
           </div>

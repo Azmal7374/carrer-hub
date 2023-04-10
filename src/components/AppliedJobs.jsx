@@ -34,14 +34,16 @@ const AppliedJobs = () => {
     console.log(job);
 
 
-    // const remoteJob =() => {
-    //     for( const id in savedCart ){
-    //         console.log(id);
-    //         const foundJob = jobs.find(job => job.id === +id);
-    //         console.log(foundJob);
-    //     }
-    // }
- 
+     
+    const handleFilterByRemote = () => {
+        const remoteJobs =job.filter(job => job.remoteOrOnsite === 'Remote')
+        setJob(remoteJobs)
+      }
+    
+      const handleFilterByOnSite = () => {
+        const onSiteJobs =job.filter(job => job.remoteOrOnsite === 'Onsite')
+        setJob(onSiteJobs)
+      }
  
 
     return (
@@ -54,8 +56,8 @@ const AppliedJobs = () => {
             
            <div className=''>
            
-           <button  className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600 mt-5 mx-8 md:mx-32">Remote</button>
-           <button  className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600">Onsite</button>
+           <button onClick={handleFilterByRemote}  className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600 mt-5 mx-8 md:mx-32">Remote</button>
+           <button onClick={handleFilterByOnSite}  className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600">Onsite</button>
 
 
            <div>

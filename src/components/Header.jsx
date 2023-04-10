@@ -11,17 +11,19 @@ const Header = () => {
       </label>
       <div tabIndex={0} className="menu  dropdown-content mt-3 p-8 shadow bg-base-100 rounded-box w-52">
     
-      <Link to="" className="my-2" >Statistics</Link>
-     <Link to="" className="my-2" >Applied Jobs</Link>
-     <Link to="">Blog</Link></div>
+      <Link to="/" className="my-2" >Home</Link>
+      <Link to="/statistics" className="my-2" >Statistics</Link>
+     <Link to="/appliedJobs" className="my-2" >Applied Jobs</Link>
+     <Link to="/blog">Blog</Link></div>
     </div>
-    <a className="btn btn-ghost normal-case text-2xl font-bold">JobBoard</a>
+    <Link to='/' className="btn btn-ghost normal-case text-2xl font-bold">JobBoard</Link>
   </div>
   <div className="navbar hidden lg:flex ">
-    <div className="menu menu-horizontal  px-8 ml-8">
-        <Link to="" className="mx-5">Statistics</Link>
-        <Link to="" className="mx-5">Applied Jobs</Link>
-        <Link to="" className="mx-5">Blog</Link>
+    <div className="menu menu-horizontal  px-8 ml-12 lg:ml-16">
+    <Link to="/" className="mx-5" >Home</Link>
+        <Link to="statistics" className="mx-5">Statistics</Link>
+        <Link to="appliedJobs" className="mx-5">Applied Jobs</Link>
+        <Link to="/blog" className="mx-5">Blog</Link>
           
     </div>
   </div>

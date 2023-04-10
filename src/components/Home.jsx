@@ -6,9 +6,11 @@ import marketing from '../assets/Icons/social-media 1.png'
 import engineeringJob from '../assets/Icons/chip 1.png';
 import { JobsContext } from '../App';
 import FeaturedJobs from './FeaturedJobs';
+import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
-    const jobs = useContext(JobsContext)
+    // const jobs = useContext(JobsContext)
+    const jobs = useLoaderData()
     const [show, setShow] =  useState(false)
     return (
        <>

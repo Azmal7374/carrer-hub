@@ -28,6 +28,8 @@ const FeaturedJobs = ({job}) => {
             <button className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600">View Details</button>
           </div>
         </div>
+
+        
       </div>
     );
 };

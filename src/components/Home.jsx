@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
  import banner from '../assets/All Images/P3OLGJ1 copy 1.png';
  import accounts from '../assets/Icons/accounts 1.png';
 import creativeDesign from '../assets/Icons/business 1.png';
@@ -6,10 +6,23 @@ import marketing from '../assets/Icons/social-media 1.png'
 import engineeringJob from '../assets/Icons/chip 1.png';
 import FeaturedJobs from './FeaturedJobs';
 import { useLoaderData } from 'react-router-dom';
+import JobList from './JobList';
 
 const Home = () => {
     const jobs = useLoaderData()
     const [show, setShow] =  useState(false)
+
+    const [lists,  setLists] =useState([])
+     useEffect(() =>{
+      fetch('categorylist.json')
+      .then(res => res.json())
+      .then(data => setLists(data))
+     },[])
+
+
+
+       console.log(lists);
+    
     return (
        <>
        <section className="banner-section my-container bg-slate-100 md:flex justify-between">
@@ -27,54 +40,19 @@ const Home = () => {
        </div>
        </section>
 
-       <section className="job-category-list-section my-container my-8">
 
+
+       <section className="job-category-list-section my-container my-8">
        <h1 className='text-2xl font-bold text-black text-center'>Job Category List</h1>
        <p  className="mt-4 text-gray-600 text-center">Explore thousands of job opportunities with all the information you need its your future</p>
-       
-     
-
-       <div className="mt-2 flex flex-wrap my-container justify-center gap-8">
-        <div className=" bg-slate-100 rounded-lg p-4 ">
-          <div className="bg-slate-200 w-14 mt-2 ml-4 rounded-md">
-          <img className='p-3 mx-auto' src={accounts} alt="" />
-          </div>
-          <div className="ml-4 mt-4 mr-4">
-          <h2 className="text-xl font-semibold">Account & Finance</h2>
-          <p>300 Jobs Avaiable</p>
-          </div>
-        
-        </div>
-        <div className=" bg-slate-100 rounded-lg p-4 ">
-        <div className="bg-slate-200 w-14 mt-2 ml-4 rounded-md">
-        <img className='p-3 mx-auto' src={creativeDesign} alt="" />
-        </div>
-        <div className="ml-4 mt-4 mr-4">
-        <h2 className="text-xl font-semibold">Creative Design</h2>
-        <p className="text-gray-600 ">100+ Jobs Avaiable</p>
-        </div>
-      
-      </div> <div className=" bg-slate-100 rounded-lg p-4 ">
-      <div className="bg-slate-200 w-14 mt-2 ml-4 rounded-md">
-      <img className='p-3 mx-auto' src={marketing} alt="" />
+      <div className=" mt-2 flex flex-wrap my-container justify-center gap-8">
+      {
+        lists.map(list =><JobList list={list} key={list.jobs}></JobList>)
+       }
       </div>
-      <div className="ml-4 mt-4 mr-4">
-      <h2 className="text-xl font-semibold">Account & Finance</h2>
-      <p>300 Jobs Avaiable</p>
-      </div>
-    
-    </div> <div className=" bg-slate-100 rounded-lg p-4 ">
-    <div className="bg-slate-200 w-14 mt-2 ml-4 rounded-md">
-    <img className='p-3 mx-auto' src={engineeringJob} alt="" />
-    </div>
-    <div className="ml-4 mt-4 mr-4">
-    <h2 className="text-xl font-semibold">Account & Finance</h2>
-    <p>300 Jobs Avaiable</p>
-    </div>
-  
-  </div>
-  </div>
        </section>
+
+     
 
        <section className="featured-jobs my-container my-8">
        <h1 className='text-2xl font-bold text-black text-center'>Featured Job</h1>

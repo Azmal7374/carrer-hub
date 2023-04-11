@@ -21,7 +21,7 @@ const Home = () => {
 
 
 
-    
+git     
     return (
        <>
        <section className="banner-section my-container bg-slate-100 md:flex justify-between">

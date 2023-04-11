@@ -21,7 +21,13 @@ const Blog = () => {
               1. When should you use context API?
             </div>
             <div className="collapse-content text-start">
-                
+                <p>
+                -->Managing state is an essential part of developing applications in React. A common way to manage state is by passing props. Passing props means sending data from one component to another. It's a good way to make sure that data gets to the right place in a React application.
+                </p>
+
+                <p>
+                -->Fortunately, React provides a built-in feature known as the context API that helps  “teleport” data to the components that need it without passing props.
+                </p>
             </div>
           </div>
           <div className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
@@ -31,18 +37,23 @@ const Blog = () => {
             </div>
             <div className="collapse-content">
               <p>
-                
+              -->Custom Hook is a JavaScript function which we create by ourselves, when we want to share logic between other JavaScript functions. It allows you to reuse some piece of code in several parts of your app.
               </p>
+              <li>As a function, it takes input and returns output.</li>
+              <li>Its name starts with use like useQuery, useMedia....</li>
+              <li>Unlike functional components, custom hooks return a normal, non-jsx data.</li>
+              <li>Unlike normal functions, custom hooks can use other hooks such as useState, useRef… and other custom hooks.</li>
             </div>
           </div>
           <div className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
             <input type="checkbox" />
             <div className="collapse-title text-xl font-medium">
-              3.What is useRef?  
+              3. What is useRef?  
             </div> 
             <div className="collapse-content">
               <p>
-               
+               -->Ref means just reference, so it can be a reference to anything (DOM node, Javascript value, etc). The useRef hook returns a mutable object which doesn't re-render the component when it's changed. Think it like useState, but unlike useState, doesn't trigger re-render of the component. The object that useRef returns have a current property that can hold any modifiable value.
+               <li>Syntax:const refContainer = useRef(initialValue);</li>
               </p>
             </div>
           </div>
@@ -53,7 +64,9 @@ const Blog = () => {
             </div>
             <div className="collapse-content">
               <p>
-               
+               -->The useMemo is a hook used in the functional component of react that returns a memoized value. In Computer Science, memoization is a concept used in general when we don’t need to recompute the function with a given argument for the next time as it returns the cached result. A memoized function remembers the results of output for a given set of inputs. For example, if there is a function to add two numbers, and we give the parameter as 1 and 2 for the first time the function will add these two numbers and return 3, but if the same inputs come again then we will return the cached value i.e 3 and not compute with the add function again. In react also, we use this concept, whenever in the React component, the state and props do not change the component and the component does not re-render, it shows the same output. The useMemo hook is used to improve performance in our React application.
+               <li>Syntax:const memoizedValue = useMemo(functionThatReturnsValue, 
+                arrayDependencies) </li>
               </p>
               
             </div>

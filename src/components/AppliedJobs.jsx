@@ -44,7 +44,9 @@ const AppliedJobs = () => {
       </div>
 
       <div>
+
        <div  className="text-center">
+       <button className="font-bold text-xl">Filter By:</button>
        <button
        onClick={handleFilterByRemote}
        className="my-btn mt-5 mx-8"

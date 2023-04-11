@@ -3,9 +3,9 @@ import React from 'react';
  import group from '../assets/Icons/Group 9969.png'
 const Footer = () => {
     return (
-     <div className="bg-black">
+     <div className="bg-black mt-20">
      <div className=" text-white lg:flex justify-center items-center gap-20 lg:h-64 p-8">
-     <div className="flex  items-center md:gap-20">
+     <div className="flex md:justify-center  items-center md:gap-20">
       <div className="mt-20">
       <h1 className='font-bold text-3xl'>JobBoard</h1>
       <p className='text-gray-400 mt-6'>Explore Thousands of job  opportunities <br /> with all the  information you needs. Its your future.</p>
@@ -20,7 +20,7 @@ const Footer = () => {
     </div>
      </div>
 
-    <div className="flex md:justify-center gap-32 md:mt-16">
+    <div className="flex md:justify-center  gap-32 md:mt-16">
     
     <div className="">
     <h2 className="text-xl font-bold mt-8 md:mt-0">Product</h2>
@@ -38,7 +38,7 @@ const Footer = () => {
    </div>
     </div>
 
-    <div className=' md:text-center mt-16 lg:mt-2'>
+    <div className='mt-16 lg:mt-2 md:text-center '>
     <h1 className="text-xl font-bold">Contact</h1>
     <p className='text-gray-400 mt-6'>524 Crowland, Barishal</p>
     <p className='text-gray-400 mt-2'>+1777-978-5570</p>

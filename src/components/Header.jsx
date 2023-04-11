@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
 
 const Header = () => {
     return (
@@ -12,19 +13,33 @@ const Header = () => {
       </label>
       <div tabIndex={0} className="menu  dropdown-content mt-3 p-8 shadow bg-base-100 rounded-box w-52">
     
-      <Link to="/" className="my-2" >Home</Link>
-      <Link to="/statistics" className="my-2" >Statistics</Link>
-     <Link to="/appliedJobs" className="my-2" >Applied Jobs</Link>
-     <Link to="/blog">Blog</Link></div>
+      <NavLink to="/"
+      ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+      className="my-2" >Home</NavLink>
+      <NavLink to="/statistics"
+      ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+      className="my-2" >Statistics</NavLink>
+     <NavLink to="/appliedJobs"
+     ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+     className="my-2" >Applied Jobs</NavLink>
+     <NavLink to="/blog">Blog</NavLink></div>
     </div>
     <Link to='/' className="btn btn-ghost normal-case text-2xl font-bold">JobBoard</Link>
   </div>
   <div className="navbar hidden lg:flex ">
     <div className="menu menu-horizontal  px-8 ml-12 lg:ml-16">
-    <Link to="/" className="mx-5" >Home</Link>
-        <Link to="statistics" className="mx-5">Statistics</Link>
-        <Link to="appliedJobs" className="mx-5">Applied Jobs</Link>
-        <Link to="/blog" className="mx-5">Blog</Link>
+    <NavLink to="/"
+    ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+    className="mx-5" >Home</NavLink>
+        <NavLink to="statistics"
+        ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+        className="mx-5">Statistics</NavLink>
+        <NavLink to="appliedJobs"
+        ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+        className="mx-5">Applied Jobs</NavLink>
+        <NavLink to="/blog"
+        ClassName = {({ isActive }) => (isActive ? 'active' : 'default')}
+        className="mx-5">Blog</NavLink>
           
     </div>
   </div>

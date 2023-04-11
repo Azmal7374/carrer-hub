@@ -12,7 +12,7 @@ const AppliedJobsShow = ({jb}) => {
       
                 <div className=" flex gap-4">
 
-                <img className="rounded-xl w-20 h-24  md:w-32 md:h-24" src={jb.companyLogo} alt="" />
+                <img className="rounded-xl w-16 h-16  md:w-32 md:h-24" src={jb.companyLogo} alt="" />
 
                  <div>
                  <h2 className="font-bold text-xl">{jb.jobTitle}</h2>
@@ -21,7 +21,7 @@ const AppliedJobsShow = ({jb}) => {
                    <p className="text-center border border-purple-400 rounded-md p-1 text-purple-400">{jb.remoteOrOnsite}</p>
                    <p className="text-center border border-purple-400 rounded-md text-purple-400 p-1">{jb.fullTimeOrPartTime}</p>
                    </div>
-                   <div className="flex justify-around text-gray-700 font-semibold">
+                   <div className="md:flex justify-around text-gray-700 font-semibold">
                    <p><FontAwesomeIcon className="" icon={faLocationDot} /> <span className="mx-1">{jb.location}</span></p>
                    <p><FontAwesomeIcon icon={faCircleDollarToSlot}></FontAwesomeIcon> <span className="mx-1">Salary: {jb.salary}</span></p>
                    </div>
@@ -32,7 +32,7 @@ const AppliedJobsShow = ({jb}) => {
                 </div>
                 <div>
                 <Link to={`/jobDetails/${jb.id}`}>
-             <button  className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600">View Details</button>
+             <button  className="my-btn">View Details</button>
              </Link>
                 </div>
 

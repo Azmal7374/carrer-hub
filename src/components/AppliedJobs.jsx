@@ -43,21 +43,23 @@ const AppliedJobs = () => {
         <img className="w-32 md:w-64 lg:w-96" src={img2} alt="" />
       </div>
 
-      <div className="">
-        <button
-          onClick={handleFilterByRemote}
-          className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600 mt-5 mx-8 md:mx-32"
-        >
-          Remote
-        </button>
-        <button
-          onClick={handleFilterByOnSite}
-          className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600"
-        >
-          Onsite
-        </button>
+      <div>
+       <div  className="text-center">
+       <button
+       onClick={handleFilterByRemote}
+       className="my-btn mt-5 mx-8"
+     >
+       Remote
+     </button>
+     <button
+       onClick={handleFilterByOnSite}
+       className="my-btn"
+     >
+       Onsite
+     </button>
+       </div>
 
-        <div></div>
+      
 
         {job.map((jb) => (
           <AppliedJobsShow jb={jb} key={jb.id}></AppliedJobsShow>

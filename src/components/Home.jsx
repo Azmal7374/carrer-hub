@@ -31,7 +31,7 @@ const Home = () => {
            <h1 className="text-5xl font-bold leading-tight">One Step <br /> Closer To Your <br /> <span className="text-purple-500">Dream Job</span></h1>
            <p className="mt-4 text-gray-600">Explore thousands of job opportunities with all the <br /> information you need its future.Come find it. Mange all <br /> your application from start to finish.</p>
          
-           <button className='mt-5 bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600'>Get Started</button>
+           <button className='mt-5 my-btn'>Get Started</button>
        </div>
          
        <div>
@@ -68,7 +68,7 @@ const Home = () => {
         </div>
 
          <p className="text-center">
-         <button onClick={()=>setShow(true)}  className=' mt-5 bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600 '>See All Jobs</button>
+         <button onClick={()=>setShow(true)}  className=' mt-5 my-btn'>See All Jobs</button>
          </p>
         
        </section>

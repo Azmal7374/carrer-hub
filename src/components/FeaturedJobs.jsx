@@ -27,7 +27,7 @@ const FeaturedJobs = ({job}) => {
           </div>
           <div className="card-actions">
              <Link to={`/jobDetails/${id}`}>
-             <button  className="bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600">View Details</button>
+             <button  className="my-btn">View Details</button>
              </Link>
           </div>
         </div>

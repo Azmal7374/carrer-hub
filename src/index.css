@@ -6,3 +6,6 @@
     @apply px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 
   }
 
+.my-btn{
+  @apply bg-purple-500 p-2 rounded-lg text-white text-center w-32 hover:bg-purple-600
+}

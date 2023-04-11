@@ -14,14 +14,14 @@ const Home = () => {
 
     const [lists,  setLists] =useState([])
      useEffect(() =>{
-      fetch('categorylist.json')
+      fetch('/categorylist.json')
       .then(res => res.json())
       .then(data => setLists(data))
      },[])
 
 
 
-git     
+    
     return (
        <>
        <section className="banner-section my-container bg-slate-100 md:flex justify-between">

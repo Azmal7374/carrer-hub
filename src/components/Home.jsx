@@ -44,7 +44,7 @@ const Home = () => {
        <section className="job-category-list-section my-container my-8">
        <h1 className='text-2xl font-bold text-black text-center'>Job Category List</h1>
        <p  className="mt-4 text-gray-600 text-center">Explore thousands of job opportunities with all the information you need its your future</p>
-      <div className=" mt-2 flex flex-wrap my-container justify-center gap-8">
+      <div className=" mt-2  my-container grid  md:grid-cols-2 lg:grid-cols-4 justify-center gap-8">
       {
         lists.map(list =><JobList list={list} key={list.jobs}></JobList>)
        }

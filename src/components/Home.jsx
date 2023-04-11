@@ -12,6 +12,7 @@ const Home = () => {
     const jobs = useLoaderData()
     const [show, setShow] =  useState(false)
 
+    
     const [lists,  setLists] =useState([])
      useEffect(() =>{
       fetch('/categorylist.json')
@@ -67,7 +68,9 @@ const Home = () => {
         </div>
 
          <p className="text-center">
-         <button onClick={()=>setShow(true)}  className=' mt-5 my-btn'>See All Jobs</button>
+        {
+            !show && <button onClick={()=>setShow(true)}  className=' mt-5 my-btn'>See All Jobs</button>
+        }
          </p>
         
        </section>

@@ -12,6 +12,4 @@
 
 
 
-
-
-Live Site Link: [links](https://silly-tanuki-b1c27e.netlify.app/)
+Live Site Link: [JobBoard](https://silly-tanuki-b1c27e.netlify.app/)
